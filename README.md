@@ -13,7 +13,7 @@ what the app does in it's mouse move handler (for example initiates a Drag & Dro
 
 You can find video demonstration of the bug here:
 
-[![Preview](preview.png)](video.webm)
+[![Preview](preview.png)](video.webm?raw=true)
 
 The bug is a lot easier to reproduce with 
 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\DisallowShaking enabled
