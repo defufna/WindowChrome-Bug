@@ -24,3 +24,4 @@ The bug seems to be in method
 [PossiblyDeactivate](https://github.com/dotnet/wpf/blob/f00f7adabea449ab91cdbd605b74bd7779a63e6b/src/Microsoft.DotNet.Wpf/src/PresentationCore/System/Windows/InterOp/HwndMouseInputProvider.cs#L894) 
 because it fails to deactivate the window when moving from it's client area to another window's NCA.
 
+Update: The bug has been fixed https://github.com/dotnet/wpf/issues/4980
